@@ -190,6 +190,54 @@
             <button type="button"  class="arrow right" onclick="nextSlide()">&#10095;</button>
           </div>
         </div>
+        <!-- Sections Projets -->
+        <div id="rubrique_projet">
+          <img src="Assets/icons/mes_projets.png" loading="lazy" alt="projet ">
+          <div class="rubrique_projet_content">
+            <div class="cards">
+              <!-- Carte 1 -->
+              <div class="card_1">
+                <div class="img"></div>
+                <div class="text_1">
+                  <p>WEB SITES</p>
+                </div>
+              </div>
+              <!-- Carte 2 -->
+              <div class="card_2">
+                <div class="img"></div>
+                <div class="text_2">
+                  <p>APPLICATIONS MOBILE</p>
+                </div>
+              </div>
+              <!-- Carte 3 -->
+              <div class="card_3">
+                <div class="img"></div>
+                <div class="text_3">
+                  <p>AUTRES</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button_projet">
+            <a href="projet.html" class="btn btn-gooey" >
+              Voir mes projets
+              <div class="btn-blobs">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </a>
+            <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <filter id="goo">
+                  <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                  <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
+                  <feBlend in2="goo" in="SourceGraphic"></feBlend>
+                </filter>
+              </defs>
+            </svg>
+          </div>
+        </div>
     </main>
     <footer>
 
