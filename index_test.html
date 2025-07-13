@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Assets/images/logo_site.WebP" />
+
+</head>
+
+<body>
+    <header>
+        <!-- Menu de navigation -->
+        <nav>
+          <div class="nav-container">
+            <div class="burger" id="burger">
+              <!-- &#9776;  -->
+               <img src="Assets/icons/menu-icon.png" alt="icon menu">
+            </div>
+            <ul id="nav-menu">
+              <li><a href="index.html#home">A PROPOS</a></li>
+              <li><a href="index.html#rubrique_projet">PROJETS</a></li>
+              <li><a href="index.html#skills-section">SKILLS</a></li>
+              <li><a href="index.html#rubrique-contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Presentation -->
+        <div class="presentation" id="home">
+            <img src="Assets/icons/melina.png"  alt="letter melina">
+        </div>
+        <p>Bienvenue dans mon univers, où design et code se rencontrent pour donner vie à des idées.</p>
+        <p>Envie d’en savoir plus sur mon parcours et découvrir mes projets ?</p>
+
+        <div class="button_header">
+            <button class="btn btn-gooey" onclick="location.href='#rubrique_about'">
+                Clique ici 
+                <div class="btn-blobs">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </button>
+            <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                        <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
+                        <feBlend in2="goo" in="SourceGraphic"></feBlend>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+
+        <div class="quote">
+            <div class="quote-content">
+                <span>• DEVELOPPEUSE WEB JUNIOR • DEVELOPPEUSE WEB JUNIOR • DEVELOPPEUSE WEB JUNIOR</span>
+                <span>• DEVELOPPEUSE WEB JUNIOR • DEVELOPPEUSE WEB JUNIOR • DEVELOPPEUSE WEB JUNIOR</span>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Section About Me -->
+        <div class="about_me" id="rubrique_about">
+          <h2 class="title_about_me"><img src="Assets/icons/a_propos.png" loading="lazy" alt="rubrique à propos de Mélina"></h2>
+          <div class="carousel-container">
+            <button type="button"  class="arrow left" onclick="previousSlide()">&#10094;</button>
+            <div class="carousel-content">
+             <!-- Rubrique 1 -->
+             <div class="slide" id="rubrique1">
+                <div class="rubrique1_content">
+                  <img class="personnage" src="Assets/images/melina_perso.WebP" loading="lazy" alt="image personnage femme">
+                  <div class="text">
+                    <p class="presentation_about_me">Moi c’est Mélina, étudiante à la Web@cadémie by Epitech !<br><br></p>
+                    <p>
+                      Je me suis lancée dans le développement web avec beaucoup d’enthousiasme, guidée par ma passion pour le design et l’envie de créer. <br>
+                      Je cherche une alternance pour septembre 2025, où je pourrais continuer à apprendre, coder, et surtout m’exprimer à travers des projets concrets.<br>
+                      N’hésitez pas à découvrir mes réalisations et à me contacter pour échanger ou collaborer !
+                    </p>
+                    <div class="button_about_me">
+                      <button   class="button_cv">
+                        <div>
+                          <span><p class="title1_button">CV</p></span>
+                        </div>
+                        <div>
+                          <span><a href="Assets/document/melina_mouri_dev-web.pdf" download class="title2_button">Télécharger le CV</a></span>
+                        </div>
+                      </button>
+                    </div>
+                    <div class="info_contact">
+                      <a href="http://www.linkedin.com/in/melina-mouri"><img src="Assets/icons/linkedin.WebP" loading="lazy" alt="logo linkedin"></a>
+                      <a href="https://github.com/Melina-13"><img src="Assets/icons/github_logo.WebP" loading="lazy" alt="logo  github"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Rubrique 2 -->
+              <div class="slide" id="rubrique2">
+                <div class="menus-container">
+                  <!-- Premier menu -->
+                  <div class="menu_1">
+                    <nav class="menu">
+                      <input type="checkbox" class="menu-open" name="menu-open" id="menu-open-1" />
+                      <label class="menu-open-button" for="menu-open-1">
+                        <img src="Assets/icons/files.WebP" loading="lazy" alt="logo files" class="files_logo">
+                      </label>
+                      <a href="#" class="menu-item" id="menu-open-1-1">
+                        <img title="HTML" src="Assets/logos/html.WebP" loading="lazy" alt="logo HTML">
+                      </a>
+                      <a href="#" class="menu-item" id="menu-open-1-2">
+                        <img title="CSS" src="Assets/logos/css.WebP" loading="lazy" alt="logo CSS">
+                      </a>
+                      <a href="#" class="menu-item" id="menu-open-1-3">
+                        <img title="JavaScript" src="Assets/logos/js.WebP" loading="lazy" alt="logo JavaScript">
+                      </a>
+                      <a href="#" class="menu-item"id="menu-open-1-4">
+                        <img title="Python" src="Assets/logos/python.png" loading="lazy" alt="logo Python">
+                      </a>
+                      <a href="#" class="menu-item" id="menu-open-1-5">
+                        <img title="Swift" src="Assets/logos/swift.WebP" loading="lazy" alt="logo Swift">
+                      </a>
+                      <a href="#" class="menu-item" id="menu-open-1-6">
+                        <img title="PHP" src="Assets/logos/php.WebP"loading="lazy" alt="logo Php">
+                      </a>
+                      <h3 class="title_icon">Languages de programmation</h3>
+                    </nav>
+                  </div>
+                  <!-- Deuxième menu -->
+                    <div class="menu_2">
+                      <nav class="menu">
+                        <input type="checkbox" class="menu-open" name="menu-open" id="menu-open-2" />
+                        <label class="menu-open-button" for="menu-open-2">
+                          <img src="Assets/icons/files.WebP" loading="lazy" alt="logo files" class="files_logo">
+                        </label>
+                        <a href="#" class="menu-item" id="menu-open-2-1">
+                          <img title="Git" src="Assets/logos/git.WebP" loading="lazy" alt="logo git">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-2-2">
+                          <img title="Mongo DB" src="Assets/logos/mongodb.png" loading="lazy" alt="logo mongodb">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-2-3">
+                          <img title="SwiftUi" src="Assets/logos/swiftui.webP" loading="lazy" alt="logo swiftui">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-2-4">
+                          <img title="SQL" src="Assets/logos/sql.WebP" loading="lazy" alt="logo sql">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-2-5">
+                          <img title="GitHub" src="Assets/logos/github.WebP"loading="lazy"  alt="logo githubt">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-2-6">
+                          <img title="Vs Code" src="Assets/logos/vscode.webp" loading="lazy" alt="logo vscode">
+                        </a>
+                        <h3 class="title_icon">Outils et Serveurs</h3>
+                      </nav>
+                    </div>
+                    <!-- Troisième menu -->
+                    <div class="menu_3">
+                      <nav class="menu">
+                        <input type="checkbox" class="menu-open" name="menu-open" id="menu-open-3" />
+                        <label class="menu-open-button" for="menu-open-3">
+                          <img src="Assets/icons/files.WebP" loading="lazy" alt="logo files" class="files_logo">
+                        </label>
+                        <a href="#" class="menu-item" id="menu-open-3-1">
+                          <img title="Figma" src="Assets/logos/figma.WebP" loading="lazy" alt="logo figma">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-3-2">
+                          <img title="Canva" src="Assets/logos/canva.png" loading="lazy" alt="logo canva">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-3-3">
+                          <img title="Photoshop" src="Assets/logos/photoshop.jpg"  loading="lazy" alt="logo photoshop">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-3-4">
+                          <img title="Bootstrap" src="Assets/logos/bootstrap.WebP" loading="lazy" alt="logo bootstrap">
+                        </a>
+                         <a href="#" class="menu-item" id="menu-open-3-5">
+                          <img title="Reacy" src="Assets/logos/react.png"  loading="lazy" alt="logo react">
+                        </a>
+                        <a href="#" class="menu-item" id="menu-open-3-6">
+                          <img title="Symfony" src="Assets/logos/symfony.png" loading="lazy" alt="logo symfony">
+                        </a>
+                        <h3 class="title_icon">Design </h3>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <button type="button"  class="arrow right" onclick="nextSlide()">&#10095;</button>
+          </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+     <script src="js/main.js" defer></script>
+  <script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('nav-menu');
+    burger.addEventListener('click', (e) => {
+      e.stopPropagation(); 
+      navLinks.classList.add('show');
+    });
+    document.querySelectorAll('#nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('show');
+      });
+    });
+    document.addEventListener('click', (e) => {
+      if (!navLinks.contains(e.target) && !burger.contains(e.target)) {
+        navLinks.classList.remove('show');
+      }
+    });
+  </script>
+</body>
+</html>
