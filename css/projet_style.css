@@ -8,7 +8,7 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    background: url('../images/background.WebP');
+    background: url('../Assets/images/background.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -17,7 +17,7 @@ body {
 /**Menu**/
 nav ul {
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 46px;
     display: flex;
     gap: 60px;
     list-style: none;
@@ -65,15 +65,15 @@ nav ul {
   /*  */
 .intro-projets p {
     margin: -46px 50px 34px 40px;
-    color: #bb6bab8c;
+    color: #bb6babe0;
     font-family: 'Antonio';
     font-size: 21px;
     text-align: center;
     line-height: 1.5;
 }
 .title img {
-    margin: -257px 0 0 23px;
-    width: 340px;
+    margin: 0 0 70px 346px;
+    width: 582px;
 }
 /* cards */
 .cards-container {
@@ -109,32 +109,35 @@ nav ul {
     background-size: cover;
 }
 #card1{
-    background-image: url('../images/tweeter.WebP');  
+    background-image: url('../Assets/images/tweeter.WebP');  
   
 }
 #card2{
-    background-image: url('../images/lovly.WebP');
+    background-image: url('../Assets/images/lovly.WebP');
 }
 #card3{
-    background-image: url('../images/CinemaScoop.WebP');
+    background-image: url('../Assets/images/CinemaScoop.WebP');
 }
 #card4{
-    background-image: url('../images/puissance4.WebP');
+    background-image: url('../Assets/images/puissance4.WebP');
 }
 #card5{
-    background-image: url('../images/morpion.WebP');
+    background-image: url('../Assets/images/morpion.WebP');
 }
 #card6{
-    background-image: url('../images/quizz.WebP');
+    background-image: url('../Assets/images/quizz.WebP');
 }
 #card7{
-    background-image: url('../images/to_do_list.WebP');
+    background-image: url('../Assets/images/to_do_list.WebP');
 }
 #card8{
-    background-image: url('../images/editeur.WebP');
+    background-image: url('../Assets/images/editeur.WebP');
 }
 #card9{
-    background-image: url('../images/PMRide.WebP');
+    background-image: url('../Assets/images/PMRide.WebP');
+}
+#card10{
+    background-image: url('../Assets/images/omega_maquette.png');
 }
 .card svg {
     width: 48px;
@@ -191,6 +194,25 @@ nav ul {
     margin: 2px;
     font-weight: bold;
 }
+.icons-lien {
+  display: flex;
+  justify-content: end;
+}
+
+.icon-link img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-link:hover img {
+  transform: scale(1.1);
+}
+
+
+
 button {
     margin: 0 0 18px 204px;
     position: relative;
@@ -332,7 +354,7 @@ button.learn-more:hover .button-text {
 }
 .github_modal{
     width: 36px;
-    margin: 4px 0 0 505px;
+    margin: 10px 0px 1px 7px;
 }
 .modal-content .close {
   color: #aaa;
@@ -358,8 +380,16 @@ button.learn-more:hover .button-text {
     color: white;
     margin: -17px 0 0 7px;
 }
+.burger {
+  display: none;
+}
 /* Responsive */
 @media (max-width: 900px) {
+    .burger {
+      display: block;
+      position: fixed;
+      z-index: 10000;
+    }
     body{
         width: 100%;
       }
