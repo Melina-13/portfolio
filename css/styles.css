@@ -231,7 +231,7 @@ p {
   font-weight: 800;
 }
 .text {
-  margin: -73px 31px 0 10px;
+  margin: 56px 31px 0 0px;
 }
 .arrow {
   position: absolute;
@@ -254,7 +254,7 @@ p {
 /* Bouton CV */
 .button_about_me {
   position: absolute;
-  margin: 65px 0 0 143px;
+  margin: -15px 0 0 94px;
 }
 .button_cv {
   outline: 0;
@@ -534,14 +534,14 @@ a {
 }
 /* Info contact */
 .info_contact {
-  margin: 67px 0 0 -68px;
+  margin: 15px 0 0 -99px;
 }
 .info_contact img {
   margin: 32px -133px 0 125px;
   width: 50px;
 }
 .button_cv {
-    margin: 58px 0 0 3px;
+    margin: 58px 0 0 37px;
 }
 .title_icon {
   position: absolute;
@@ -963,7 +963,7 @@ footer::before {
  }
   /* Header */
     header {
-      height: 659px;
+      height: 736px;
     }
     header img{
       width: 100%;
@@ -977,7 +977,7 @@ footer::before {
     }
     .quote {
       padding: 15px 7px;
-      margin-top: 127px;
+      margin-top: 143px;
     }
     .quote-content {
       font-size: 19px;
@@ -1026,7 +1026,7 @@ footer::before {
       padding: 10px;
     }
     .presentation img {
-      margin: 157px 0 7px 36px;
+      margin: 232px 0 7px 36px;
       width: 348px;
   }
     .button_header {
@@ -1036,10 +1036,11 @@ footer::before {
       font-size: 17px;
       text-align: center;
     }
-    .btn {
-      font-size: 10px;
-      padding: 1em 0.9em;
-  }
+   .btn {
+    font-size: 14px; 
+    padding: 0.8em 1.2em; 
+}
+
   /* Rubrique About me */
   .title_icon{
     font-size: 20px;
@@ -1068,9 +1069,9 @@ footer::before {
   padding: 30px;
 }
 .personnage {
-  height: 200px;
-  z-index: 1;
-  margin: -24px 0 0 -22px;
+    height: 200px;
+    z-index: 1;
+    margin: -42px 0 0 14px;
 }
 .arrow {
  top: 40%;
@@ -1118,7 +1119,7 @@ footer::before {
 .tabs {
   margin-top: 31px;
   width: 378px;
-  margin-left: 9px;
+  margin-left: -5px;
   margin-right: 19px;
   display: flex;
   justify-content: center;
@@ -1146,10 +1147,10 @@ footer::before {
     margin-left: -6px;
 }
 .text_presentation {
-    margin: 38px 50px 17px 41px;
+    margin: 38px 53px 18px 15px;
 }
 .skills-grid {
-  margin-left: 22px;
+  margin-left: 6px;
 }
 /* Rubrique contact */
   .contact-title {
@@ -1191,5 +1192,12 @@ footer::before {
 .button-border {
   display: none;
 }
+.text {
+    margin: -88px 31px 0 0px;
 }
-
+.contact img {
+    margin-top: -4px;
+    margin-left: 3px;
+    width: 342px;
+}
+}
