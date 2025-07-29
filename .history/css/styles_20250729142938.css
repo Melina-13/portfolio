@@ -231,7 +231,7 @@ p {
   font-weight: 800;
 }
 .text {
-  margin: -73px 31px 0 10px;
+  margin: 65px -14px 0 -28px;
 }
 .arrow {
   position: absolute;
@@ -537,11 +537,8 @@ a {
   margin: 67px 0 0 -68px;
 }
 .info_contact img {
-  margin: 32px -133px 0 125px;
+  margin: 4px -79px 0 72px;
   width: 50px;
-}
-.button_cv {
-    margin: 58px 0 0 3px;
 }
 .title_icon {
   position: absolute;
@@ -949,10 +946,7 @@ footer::before {
 .burger {
   display: none;
 }
-.icon-contact{
-  height: 24px;
-  width: 24px;
-}
+
 
 
 /********Responsive ***************/
@@ -963,7 +957,7 @@ footer::before {
  }
   /* Header */
     header {
-      height: 659px;
+      height: 744px;
     }
     header img{
       width: 100%;
@@ -971,10 +965,11 @@ footer::before {
     .presentation {
       padding-top: 87px;
     }
-    .presentation img {
-      margin: 148px 0 18px 20px;
-      width: 348px;
+        .presentation img {
+        margin: 133px 0 -24px 21px;
+        width: 348px;
     }
+}
     .quote {
       padding: 15px 7px;
       margin-top: 127px;
@@ -1026,7 +1021,7 @@ footer::before {
       padding: 10px;
     }
     .presentation img {
-      margin: 157px 0 7px 36px;
+      margin: 157px 0 -24px 36px;
       width: 348px;
   }
     .button_header {
@@ -1046,8 +1041,8 @@ footer::before {
     margin: -42px 0 0 -100px;
   }
   .title_about_me img {
-    margin: 8px 0 -58px 64px;
-    width: 298px;
+    margin: -110px 0 -63px 248px;
+    width: 400px;
   }
   .title1_button { 
     margin-left: 45px!important;
@@ -1073,7 +1068,8 @@ footer::before {
   margin: -24px 0 0 -22px;
 }
 .arrow {
- top: 40%;
+  top: 38%;
+  padding: 54px 0 0 -6px;
 }
 .button_about_me {
   margin: -151px 0 0 -135px;
@@ -1092,11 +1088,11 @@ footer::before {
   margin: 533px 0 0 -60px;
 }
 .info_contact {
-  margin: -5px 0 0 -455px;
+  margin: -201px 0 0 -518px;
 }
    /* Rubrique projet */
    #rubrique_projet img {
-    margin: 6px 0 -2px 51px;
+    margin: -16px 0 -2px 71px;
     width: 300px;
 }
 
@@ -1107,7 +1103,7 @@ footer::before {
 }
 
 .button_projet {
-  margin: 707px 0 75px 160px;
+  margin: -14px 0 73px 142px;
 }
   
 /* Skills */
@@ -1116,14 +1112,12 @@ footer::before {
   padding: 0px 0px 0 21px;
 }
 .tabs {
-  margin-top: 31px;
-  width: 378px;
-  margin-left: 9px;
-  margin-right: 19px;
+  margin-left: -14px;
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   gap: 5px;
-  margin-bottom: -19px;
+  margin-bottom: 20px;
   background-color: white;
   border-radius: 8px;
 }
@@ -1135,32 +1129,22 @@ footer::before {
   font-size: 15px;
   background: white;
   border: none;
-  padding: 5px 2px;
+  padding: 11px 10px;
   cursor: pointer;
   font-weight: bolder;
   color: #f2cfe7;
   border-radius: 8px;
   transition: background 0.3s ease, color 0.3s ease;
 }
-.skill-card {
-    margin-left: -6px;
-}
-.text_presentation {
-    margin: 38px 50px 17px 41px;
-}
 .skills-grid {
-  margin-left: 22px;
+  margin-left: 1px;
 }
 /* Rubrique contact */
-  .contact-title {
-    margin-top: -43px;
+.contact img {
+    margin-top: -38px;
     margin-left: -4px;
-    width: 295px;
-    margin-bottom: 64px;
-  }
-  .contact-container p {
-    margin: -24px 0 34px 7px;
-    font-size: 1rem;
+    width: 365px;
+    margin-bottom: -5px;
 }
 .contact-container {
   padding: 20px;
@@ -1171,25 +1155,6 @@ footer::before {
 .contact-container button {
   font-size: 0.9rem;
 }
-.social-btn {
-    height: 50px;
-}
-.icon-contact img {
-  width: 24px;
-  height: auto;
-  z-index: 9999;
-  position: relative;
-}
-.button_cv{
-  margin: 180px 0 0 186px;
-}
-.copyright{
-  text-align: center;
-  margin-top: 55px;
-  font-size: 13px;
-}
-.button-border {
-  display: none;
-}
+
 }
 

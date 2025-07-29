@@ -949,10 +949,7 @@ footer::before {
 .burger {
   display: none;
 }
-.icon-contact{
-  height: 24px;
-  width: 24px;
-}
+
 
 
 /********Responsive ***************/
@@ -963,7 +960,7 @@ footer::before {
  }
   /* Header */
     header {
-      height: 659px;
+      height: 744px;
     }
     header img{
       width: 100%;
@@ -1026,7 +1023,7 @@ footer::before {
       padding: 10px;
     }
     .presentation img {
-      margin: 157px 0 7px 36px;
+      margin: 157px 0 -24px 36px;
       width: 348px;
   }
     .button_header {
@@ -1092,7 +1089,7 @@ footer::before {
   margin: 533px 0 0 -60px;
 }
 .info_contact {
-  margin: -5px 0 0 -455px;
+  margin: -201px 0 0 -518px;
 }
    /* Rubrique projet */
    #rubrique_projet img {
@@ -1107,7 +1104,7 @@ footer::before {
 }
 
 .button_projet {
-  margin: 707px 0 75px 160px;
+  margin: 705px 0 73px 142px;
 }
   
 /* Skills */
@@ -1116,14 +1113,12 @@ footer::before {
   padding: 0px 0px 0 21px;
 }
 .tabs {
-  margin-top: 31px;
-  width: 378px;
-  margin-left: 9px;
-  margin-right: 19px;
+  margin-left: -14px;
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   gap: 5px;
-  margin-bottom: -19px;
+  margin-bottom: 20px;
   background-color: white;
   border-radius: 8px;
 }
@@ -1135,7 +1130,7 @@ footer::before {
   font-size: 15px;
   background: white;
   border: none;
-  padding: 5px 2px;
+  padding: 4px 6px;
   cursor: pointer;
   font-weight: bolder;
   color: #f2cfe7;
@@ -1146,21 +1141,23 @@ footer::before {
     margin-left: -6px;
 }
 .text_presentation {
-    margin: 38px 50px 17px 41px;
+    margin: 21px 0 14px 6px;
 }
 .skills-grid {
-  margin-left: 22px;
+  margin-left: 1px;
 }
 /* Rubrique contact */
-  .contact-title {
+  .contact img {
     margin-top: -43px;
     margin-left: -4px;
     width: 295px;
     margin-bottom: 64px;
   }
   .contact-container p {
-    margin: -24px 0 34px 7px;
     font-size: 1rem;
+    color: #a1539f;
+    margin-bottom: 22px;
+    font-weight: bold;
 }
 .contact-container {
   padding: 20px;
@@ -1171,25 +1168,6 @@ footer::before {
 .contact-container button {
   font-size: 0.9rem;
 }
-.social-btn {
-    height: 50px;
-}
-.icon-contact img {
-  width: 24px;
-  height: auto;
-  z-index: 9999;
-  position: relative;
-}
-.button_cv{
-  margin: 180px 0 0 186px;
-}
-.copyright{
-  text-align: center;
-  margin-top: 55px;
-  font-size: 13px;
-}
-.button-border {
-  display: none;
-}
+
 }
 

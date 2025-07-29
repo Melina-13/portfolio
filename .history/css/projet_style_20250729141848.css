@@ -444,7 +444,6 @@ button.learn-more:hover .button-text {
         margin: -46px 8px 49px 10px;
         color: #bb6bab;
         text-align: center;
-        font-size: 16px;
     }
     .cards-container {
       flex-direction: column;
@@ -479,4 +478,3 @@ button.learn-more:hover .button-text {
     margin: -67px 0 70px 14px;
     width: 362px;
   }
-}

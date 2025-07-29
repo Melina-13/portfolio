@@ -951,7 +951,7 @@ footer::before {
 }
 .icon-contact{
   height: 24px;
-  width: 24px;
+  width: 24p;
 }
 
 
@@ -1107,7 +1107,7 @@ footer::before {
 }
 
 .button_projet {
-  margin: 707px 0 75px 160px;
+  margin: 705px 0 73px 142px;
 }
   
 /* Skills */
@@ -1116,14 +1116,12 @@ footer::before {
   padding: 0px 0px 0 21px;
 }
 .tabs {
-  margin-top: 31px;
-  width: 378px;
-  margin-left: 9px;
+  margin-left: -5px;
   margin-right: 19px;
   display: flex;
   justify-content: center;
   gap: 5px;
-  margin-bottom: -19px;
+  margin-bottom: 37px;
   background-color: white;
   border-radius: 8px;
 }
@@ -1146,20 +1144,19 @@ footer::before {
     margin-left: -6px;
 }
 .text_presentation {
-    margin: 38px 50px 17px 41px;
+    margin: 21px 0 14px 6px;
 }
 .skills-grid {
-  margin-left: 22px;
+  margin-left: 1px;
 }
 /* Rubrique contact */
-  .contact-title {
+  .contact img {
     margin-top: -43px;
     margin-left: -4px;
     width: 295px;
     margin-bottom: 64px;
   }
   .contact-container p {
-    margin: -24px 0 34px 7px;
     font-size: 1rem;
 }
 .contact-container {
@@ -1184,9 +1181,7 @@ footer::before {
   margin: 180px 0 0 186px;
 }
 .copyright{
-  text-align: center;
   margin-top: 55px;
-  font-size: 13px;
 }
 .button-border {
   display: none;
