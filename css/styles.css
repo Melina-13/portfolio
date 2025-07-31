@@ -7,8 +7,6 @@
 }
 body {
     font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #d8effc;
 }
 html {
@@ -178,6 +176,14 @@ header p {
     }
 }
 /********************** MAIN ***************************/
+#main {
+  background: url(../images/lion.jpg) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  display: block;
+  width: 100%;
+}
 main{
   background: #d8effc;
 
@@ -957,10 +963,12 @@ footer::before {
 
 /********Responsive ***************/
 @media (max-width: 768px) {
- *{
-  margin: 0;
-  padding: 0;
- }
+ 
+  #main {
+    height: 90vh;
+    min-height: 400px;
+    padding: 20px;
+  }
   /* Header */
     header {
       height: 736px;
@@ -1201,3 +1209,4 @@ footer::before {
     width: 342px;
 }
 }
+
