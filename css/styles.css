@@ -177,13 +177,12 @@ header p {
 }
 /********************** MAIN ***************************/
 #main {
-  background: url(../images/lion.jpg) center no-repeat;
+  background: url(../images/background.jpg) center no-repeat;
   background-size: cover;
   height: 100vh;
   min-height: 500px;
-  display: block;
-  width: 100%;
 }
+
 main{
   background: #d8effc;
 
