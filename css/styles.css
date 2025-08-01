@@ -957,18 +957,9 @@ footer::before {
 
 /********Responsive ***************/
 @media (max-width: 768px) {
- 
-  #main {
-    height: 90vh;
-    min-height: 400px;
-    padding: 20px;
-  }
   /* Header */
     header {
-      height: 736px;
-      background-attachment: fixed;
-    }
-    header img{
+      height: 720px;
       width: 100%;
     }
     .presentation {
