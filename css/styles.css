@@ -72,6 +72,8 @@ header {
     background-repeat: no-repeat;
 }
 
+
+
 /* Nom img */
 .presentation img {
     margin: -68px 0px -4px 268px;
@@ -958,14 +960,12 @@ footer::before {
 /********Responsive ***************/
 @media (max-width: 768px) {
   /* Header */
-    header {
-      height: 720px;
-      width: 100%;
-    }
-    .presentation {
+   
+    /* .presentation {
       padding-top: 87px;
-    }
-    .presentation img {
+    } */
+
+    .melina-title {
       margin: 148px 0 18px 20px;
       width: 348px;
     }
