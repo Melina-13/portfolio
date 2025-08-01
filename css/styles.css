@@ -68,7 +68,8 @@ header {
     height: 584px;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
+    background-attachment: scroll; 
 }
 /* Nom img */
 .presentation img {
@@ -971,6 +972,7 @@ footer::before {
   /* Header */
     header {
       height: 736px;
+      background-attachment: fixed;
     }
     header img{
       width: 100%;
