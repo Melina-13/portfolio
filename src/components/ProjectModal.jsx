@@ -5,34 +5,37 @@ export default function ProjectModal({ project, onClose }) {
         {/* Bouton retour en haut à droite */}
         <button
           onClick={onClose}
-          className="absolute top-6 right-6 text-gray-400 hover:text-pink-600 text-3xl font-bold cursor-pointer"
+          className="absolute top-6 right-6 text-rose-baby hover:text-rose-600 text-3xl font-bold cursor-pointer"
           title="Retour"
         >
           &#10005;
         </button>
+
         {/* Titre du projet */}
-        <h2 className="font-black text-2xl text-pink-700 mb-5">{project.title}</h2>
+        <h2 className="font-black text-2xl text-rose-baby mb-5">{project.title}</h2>
+
         {/* Image principale */}
         <img
           src={project.moreImg}
           alt={project.title}
           className="rounded-xl w-full h-48 object-cover mb-6"
         />
+
         {/* Description */}
-        <div className="text-gray-700 mb-7 text-lg">
-          {project.description}
-        </div>
+        <div className="text-blue-pastel mb-7 text-lg">{project.description}</div>
+
         {/* Badges */}
         <div className="flex flex-wrap gap-3 mb-6">
           {project.skills.map((s) => (
             <span
               key={s}
-              className="bg-pink-200 text-pink-700 px-3 py-1 rounded-full text-sm font-bold"
+              className="bg-pink-200 text-white px-3 py-1 rounded-full text-sm font-bold"
             >
               {s}
             </span>
           ))}
         </div>
+
         {/* Lien Github */}
         <div className="flex flex-row justify-end items-center gap-2">
           {project.github && (
@@ -40,7 +43,7 @@ export default function ProjectModal({ project, onClose }) {
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-pink-400 hover:text-pink-600 transition"
+              className="text-rose-baby hover:text-rose-600 transition"
               title="Voir sur Github"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32">
