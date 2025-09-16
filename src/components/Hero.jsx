@@ -5,36 +5,54 @@ const bandeau = "• DEVELOPPEUSE WEB JUNIOR ".repeat(18);
 export default function Hero() {
   return (
     <section
-      className="flex flex-col items-center py-10 relative bg-cover bg-center"
+      className="flex flex-col justify-center items-center relative bg-cover bg-center min-h-screen pb-20 px-4 md:px-8"
       style={{ backgroundImage: "url('/background.jpg')" }}
     >
-      <img src={melinaTitle} alt="MELINA" className="block w-[380px] md:w-[580px] mb-2" />
-      <p className="text-lg md:text-xl text-[#bb6bab] text-center font-bold max-w-xl mb-1">
-        Bienvenue dans mon univers, où design et code se rencontrent pour donner vie à des idées.
+      {/* Image */}
+      <img
+        src={melinaTitle}
+        alt="MELINA"
+        className="block w-[300px] md:w-[600px] mt-24 mb-6"
+      />
+
+      {/* Texte sur 2 lignes avec police plus grande */}
+      <p className="text-lg md:text-2xl text-[#bb6bab] text-center font-bold max-w-6xl mb-7">
+        Bienvenue dans mon univers, où design et code se rencontrent pour donner vie à des idées.<br />
         Envie d’en savoir plus sur mon parcours et découvrir mes projets ?
       </p>
-      
+
+      {/* Bouton */}
       <a href="#rubrique_about">
-        <button className="bg-pink-400 text-white px-8 py-2 rounded-3xl font-semibold shadow-md hover:bg-pink-500 transition">
+        <button
+          className="px-8 py-2 rounded-3xl font-semibold shadow-md transition"
+          style={{ backgroundColor: "#FCBEF8", color: "#BB6BAB" }}
+        >
           Clique ici
         </button>
       </a>
-      {/* Bandeau animé infini avec fond pastel arrondi */}
-      <div className="w-full overflow-hidden mt-12 mb-2">
+
+      {/* Bandeau animé en bas */}
+      <div className="absolute bottom-0 left-0 w-full overflow-hidden">
         <div className="relative w-full h-12 flex items-center">
           <div
             className="absolute top-0 left-0 flex marquee"
             style={{ width: "200%", height: "100%" }}
           >
             <div
-              className="whitespace-nowrap font-bold text-[#bb6bab] text-base md:text-lg py-2 bg-pink-200 rounded-3xl px-8 shadow-md"
-              style={{ background: "rgba(196,180,218,0.7)", width: "100%" }}
+              className="whitespace-nowrap font-bold text-[#bb6bab] text-base md:text-lg bg-pink-200 rounded-t-3xl px-8 shadow-md"
+              style={{
+                background: "rgba(196,180,218,0.7)",
+                width: "100%",
+                paddingTop: "0.7rem",
+                paddingBottom: "0.5rem"
+              }}
             >
               {bandeau}
             </div>
           </div>
         </div>
       </div>
+
       <style>
         {`
         .marquee {

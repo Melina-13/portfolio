@@ -12,13 +12,14 @@ const pages = [
     mainImg: melinaPerso,
     content: (
       <>
-        <p className="font-bold text-lg mb-3 text-center lg:text-left" style={{ color: "#BB6BAB" }}>
+        <p className="font-extrabold text-lg mb-3 text-center lg:text-left" style={{ color: "#BB6BAB" }}>
           Moi c’est Mélina, étudiante à la Web@cadémie by Epitech !
         </p>
         <p className="mb-3 text-sm md:text-base text-center lg:text-left" style={{ color: "#BB6BAB" }}>
-          Je me suis lancée dans le développement web avec enthousiasme, guidée par ma passion pour le design et mon envie de créer.<br />
-          Je suis à la recherche d’une alternance à partir de septembre 2025, afin de continuer à apprendre, coder et surtout m’exprimer à travers des projets concrets.<br />
+           Je me suis lancée dans le développement web avec enthousiasme, guidée par ma passion pour le design et mon envie de créer.<br /> 
+          Je suis à la recherche d’une alternance des que possible afin de continuer à apprendre, coder et surtout m’exprimer à travers des projets concrets.<br />
           N’hésitez pas à découvrir mes réalisations et à me contacter pour échanger ou collaborer !
+        
         </p>
         <div className="flex flex-col sm:flex-row gap-4 mb-2 justify-center lg:justify-start">
           <a
@@ -46,13 +47,7 @@ const pages = [
     mainImg: melinaPerso,
     content: (
       <>
-        <p className="font-bold text-lg mb-3 text-center lg:text-left" style={{ color: "#BB6BAB" }}>
-          Mon parcours
-        </p>
-        <p className="mb-3 text-sm md:text-base text-center lg:text-left" style={{ color: "#BB6BAB" }}>
-          Après le bac, j’ai décidé de me spécialiser dans le web et l’UX/UI pour allier créativité et technique.<br />
-          J’ai développé plusieurs projets scolaires et personnels, à la fois en équipe et en autonomie, tout en me formant aux outils modernes du secteur (Figma, Git, React…).
-        </p>
+         {/* ajoute ici le systeme de cercle */}
       </>
     ),
   },

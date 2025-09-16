@@ -183,7 +183,12 @@ export default function Projects() {
             />
 
             {/* Titre + résumé */}
-            <h3 className="font-black text-xl text-rose-baby mb-2">{p.title}</h3>
+            <h3
+              className="font-black text-xl mb-2"
+              style={{ color: "rgb(187, 107, 171)" }}
+            >
+              {p.title}
+            </h3>
             <div className="text-blue-pastel text-base mb-3">{p.short}</div>
 
             {/* Badges compétences */}
@@ -211,19 +216,17 @@ export default function Projects() {
       </div>
 
       {/* Bouton voir tous les projets */}
-      {/* -- Bouton voir tous les projets -- */}
-<div className="flex justify-center mt-8">
-  {projectsData.length > 3 && (
-    <button
-      onClick={() => setShowAll(!showAll)}
-      style={{ backgroundColor: "#FCBEF8" }}
-      className="text-white px-8 py-2 rounded-3xl font-semibold shadow hover:brightness-90 transition"
-    >
-      {showAll ? "Masquer les projets" : "Voir tous les projets"}
-    </button>
-  )}
-</div>
-
+      <div className="flex justify-center mt-8">
+        {projectsData.length > 3 && (
+          <button
+            onClick={() => setShowAll(!showAll)}
+            style={{ backgroundColor: "#FCBEF8" }}
+            className="text-white px-8 py-2 rounded-3xl font-semibold shadow hover:brightness-90 transition"
+          >
+            {showAll ? "Masquer les projets" : "Voir tous les projets"}
+          </button>
+        )}
+      </div>
 
       {/* Modal */}
       {modalOpen && selected !== null && (
