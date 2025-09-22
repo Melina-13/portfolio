@@ -31,7 +31,7 @@ export default function Footer() {
     <footer
       className="relative w-full px-0 pt-0 pb-0"
       style={{
-        backgroundImage: "url('/portfolio/background2.jpg')", // <-- chemin pour GitHub Pages
+        backgroundImage: "url('/background2.jpg')", // <-- chemin pour GitHub Pages
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
