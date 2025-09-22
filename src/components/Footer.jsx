@@ -31,18 +31,18 @@ export default function Footer() {
     <footer
       className="relative w-full px-0 pt-0 pb-0"
       style={{
-        backgroundImage: "url('/background2.jpg')",
+        backgroundImage: "url('/portfolio/background2.jpg')", // <-- chemin pour GitHub Pages
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
-      {/* Wave tout en haut, largeur site complète */}
+      {/* Wave tout en haut */}
       <div className="absolute top-0 left-0 w-full pointer-events-none select-none z-10">
         <img src={wave} alt="wave" className="w-full h-[85px] md:h-[100%] block" />
       </div>
-      {/* Contenu démarré après la vague */}
+
       <div className="pt-[80px]">
-        {/* Titre CONTACT (image centrée) */}
+        {/* Titre CONTACT */}
         <div className="mb-8 flex justify-center">
           <img
             src={contactTitle}
@@ -50,13 +50,14 @@ export default function Footer() {
             className="w-[210px] sm:w-[320px] md:w-[520px] mx-auto mt-40"
           />
         </div>
-        {/* Phrase informative sous le titre CONTACT - max-width 30rem */}
+
+        {/* Texte */}
         <p className="mb-8 text-center text-[#bb6bab] text-base sm:text-lg font-semibold max-w-xl mx-auto">
-          Une question, une opportunité ou un projet à discuter ?
-          <br />
+          Une question, une opportunité ou un projet à discuter ?<br />
           N'hésitez pas à me contacter, je vous répondrai rapidement.
         </p>
-        {/* Carrés contact centrés au milieu, taille réduite au repos, larges au hover */}
+
+        {/* Boutons contact */}
         <div className="w-full flex justify-center">
           <div className="flex flex-col sm:flex-row gap-6 max-w-4xl mb-8 items-center">
             {footerLinks.map((link, idx) => (
@@ -96,14 +97,13 @@ export default function Footer() {
             ))}
           </div>
         </div>
-        {/* Copyright & Mentions sans background */}
+
+        {/* Copyright */}
         <div
           className="w-full py-5 px-2 text-center text-xs sm:text-sm font-semibold"
           style={{ color: "#bb6bab" }}
         >
-          <span>
-            © 2025 Mélina Mouri — Tous droits réservés.
-          </span>
+          <span>© 2025 Mélina Mouri — Tous droits réservés.</span>
           <span className="mx-2">|</span>
           <a
             href="/mentions-legales"
