@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <section
       className="flex flex-col justify-center items-center relative bg-cover bg-center min-h-screen pb-20 px-4 md:px-8"
-      style={{ backgroundImage: "url('/portfolio/background.jpg')" }}
+      style={{ backgroundImage: "url('/background.jpg')" }}
     >
       {showSplash && <SplashScreen onFinish={handleSplashFinish} />}
 
