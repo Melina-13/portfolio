@@ -25,7 +25,7 @@ const projectsData = [
     description:
       "Partely est une boutique en ligne spécialisée dans les produits gaming, offrant une expérience d’achat fluide et immersive pour les passionnés de jeux vidéo.",
     skills: ["React", "Python", "Flask", "SqlLite"],
-    github: "https://github.com/Melina-13/Tweeter.git",
+    github: "https://github.com/Melina-13/E-commerce.git",
     moreImg: imgPartely,
   },
   {
