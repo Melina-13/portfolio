@@ -104,16 +104,7 @@ export default function Footer() {
           style={{ color: "#bb6bab" }}
         >
           <span>© 2025 Mélina Mouri — Tous droits réservés.</span>
-          <span className="mx-2">|</span>
-          <a
-            href="/mentions-legales"
-            className="underline hover:text-pink-400"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "#bb6bab" }}
-          >
-            Mentions légales
-          </a>
+          
         </div>
       </div>
     </footer>
