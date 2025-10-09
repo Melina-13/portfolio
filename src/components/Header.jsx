@@ -14,7 +14,7 @@ export default function Header() {
           aria-label="Ouvrir/Fermer le menu"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <img src={menuIcon} alt="menu hamburger" className="w-8 h-8" />
+          <img src={menuIcon} alt="Bienvenue sur mon portfolio" className="w-8 h-8" />
         </button>
 
         {/* Menu horizontal desktop */}
