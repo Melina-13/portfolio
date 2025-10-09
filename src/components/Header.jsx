@@ -11,10 +11,11 @@ export default function Header() {
         {/* Hamburger (mobile) */}
         <button
           className="md:hidden"
-          aria-label="Ouvrir/Fermer le menu"
+          aria-label="Ouvrir ou fermer le menu"
           onClick={() => setIsOpen(!isOpen)}
         >
-          <img src={menuIcon} alt="Bienvenue sur mon portfolio" className="w-8 h-8" />
+          {/* 🔹 Changer alt pour éviter que Google lise “menu hamburger” */}
+          <img src={menuIcon} alt="icône du menu" className="w-8 h-8" />
         </button>
 
         {/* Menu horizontal desktop */}
@@ -39,7 +40,8 @@ export default function Header() {
             className="mb-6 self-start bg-transparent p-0"
             aria-label="Fermer le menu"
           >
-            <img src={menuIcon} alt="fermer menu" className="w-8 h-8" />
+            {/* 🔹 Même correction ici */}
+            <img src={menuIcon} alt="icône de fermeture du menu" className="w-8 h-8" />
           </button>
         </li>
         <li><a href="#about" onClick={() => setIsOpen(false)}>A PROPOS</a></li>
